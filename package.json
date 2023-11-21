@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is Namaste React course",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murali944/namaste-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Murali Pedapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murali944/namaste-react/issues"
+  },
+  "homepage": "https://github.com/murali944/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
