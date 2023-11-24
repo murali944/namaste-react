@@ -34,7 +34,7 @@ const RestaurantCard = (props) => {
   const { resData } = props;
   return (
     <div className="restaurent-card">
-      <img className ="image-border" src={resData.avatar}></img>
+      <img className="image-border" src={resData.avatar}></img>
       <h3>{resData.restaurant}</h3>
       <h4>{resData.city}</h4>
 
@@ -47,7 +47,7 @@ const BodyContainer = () => {
 
   return (
     <div className="restaurent-container">
-      {restaurentObject.map((restaurant) => (<RestaurantCard key= {restaurant.id} resData={restaurant} />))}
+      {restaurentObject.map((restaurant) => (<RestaurantCard key={restaurant.id} resData={restaurant} />))}
 
     </div>
   );
