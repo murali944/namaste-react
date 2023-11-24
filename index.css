@@ -69,4 +69,15 @@ body {
 .restaurent-card{
     padding: 10px 10px;
     margin: 10px;
+    border-style : solid;
+    width: 150px; 
+}
+
+.restaurent-container{
+    margin: 10px;
+
+}
+.image-border{
+    margin: 1px;
+    border-style : solid;
 }
