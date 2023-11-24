@@ -19,7 +19,7 @@ const restaurentObject = [{ "id": 1, "restaurant": "Robena", "city": "Petrodvore
 const HeaderComponent = () => {
   return (
     <div className="header">
-      <img src="https://seeklogo.com/images/Z/zomato-logo-01283E6B73-seeklogo.com.png" className="logo"></img>
+      <img src="https://img.freepik.com/premium-vector/online-food-app-icon-food-shop-location-logo-also-online-resturent-location-template_608547-155.jpg?w=2000" className="logo"></img>
       <div className="header-right">
         <a className="active" href="#home">Home</a>
         <a href="#contact">Contact</a>
