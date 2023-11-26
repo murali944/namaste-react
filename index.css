@@ -1,15 +1,19 @@
-#heading { background-color: aqua;}
+#heading {
+  background-color: aqua;
+}
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
-body { 
+body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: rgb(218, 204, 204);
   padding: 20px 10px;
 }
 
@@ -19,15 +23,15 @@ body {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
 .header img.logo {
   font-size: 25px;
   font-weight: bold;
-  height : 100px;
-  width : 100px;
+  height: 100px;
+  width: 100px;
 }
 
 .header a:hover {
@@ -44,9 +48,9 @@ body {
   float: right;
 }
 
-.header-center {
-    float: center;
-  }
+.header .header-center a {
+  text-align: center;
+}
 
 @media screen and (max-width: 500px) {
   .header a {
@@ -54,31 +58,45 @@ body {
     display: block;
     text-align: left;
   }
-  
+
   .header-right {
     float: none;
   }
 }
 
-.restaurent-container{
-    display: flex;
-   
-    
+.restaurent-container {
+  display: flex;
 }
 
-.restaurent-card{
-    padding: 10px 10px;
-    margin: 10px;
-    border-style : solid;
-    width: 150px; 
+.restaurent-card {
+  padding: 10px 10px;
+  margin: 10px;
+  border-style: solid;
+  width: 150px;
 }
 
-.restaurent-container{
-    margin: 10px;
-    padding: 50px;
+.restaurent-container {
+  margin: 10px;
+  padding: 50px;
+}
+.image-border {
+  margin: 1px;
+  border-style: solid;
+}
+.footer {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  text-align: center;
+}
 
-}
-.image-border{
-    margin: 1px;
-    border-style : solid;
-}
+.footer a {
+
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 4px;
+  }
